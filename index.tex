@@ -1,0 +1,30 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+%\usepackage[backend=biber,style=authoryear]{biblatex}
+%\usepackage{csquotes}
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{XITS}
+\setmathfont{XITS Math}
+\setmonofont{Source Code Pro}
+
+
+%\addbibresource{references.bib}
+
+\title{Efficient generic diffing in Haskell}
+\author{Arian van Putten}
+
+% \includeonly{results}
+\begin{document}
+\maketitle
+\tableofcontents
+\include{introduction}
+\include{background}
+\include{experiments}
+\include{results}
+\include{planning}
+%\printbibliography 
+\end{document}
+              
